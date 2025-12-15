@@ -1,11 +1,12 @@
 import React from 'react'
 import { useState } from 'react'
 import { assets } from '../../assets/assets'
-// Corrected import path
-import Title from "../../components/owner/Title"
+// In src/pages/owner/AddCar.jsx
+import Title from '../../component/owner/Title'
 
 const AddCar = () => {
   const [image, setImage] = useState(null)
+   const currency = import.meta.env.VITE_CURRENCY;
   const [car, setCar] = useState({
     brand: '',
     model: '',
@@ -18,6 +19,7 @@ const AddCar = () => {
     location: '',
     description: '',
   })
+  const [isLoading, setIsLoading] = useState(false)
 
   const onSubmitHandler = async (e) => {
     e.preventDefault();
