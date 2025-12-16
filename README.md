@@ -21,6 +21,6 @@
 - Main Panel with Sidebase (sidebar + page content)
 1. Dashboad Page
 2. Booking Page
-3. 
-4. 
+3. AddCar page
+4. ManageBookings
 
