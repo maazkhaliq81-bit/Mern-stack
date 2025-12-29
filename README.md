@@ -34,5 +34,11 @@
 - connect server with mongodb atlas
 - user schema 
 - login & registeration of user (api)
-- testing api by postman 
+- testing api by postman
+
+## phase-6
+- API (getuserdata using token)
+- API (change role user to owner)
+- API (Add car in list)
+   1. imagekit configuration (to optimize our image)
 
