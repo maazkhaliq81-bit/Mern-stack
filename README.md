@@ -42,3 +42,13 @@
 - API (Add car in list)
    1. imagekit configuration (to optimize our image)
 
+## phase-8
+- connect backend to frontend
+  1. login 
+  2. list cars
+    1. addcar
+    2. dashboard
+    3. managebookings 
+    4. manageCars 
+    
+---
