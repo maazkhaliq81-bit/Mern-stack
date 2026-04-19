@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide the hr by default */
+a hr {
+  display: none;
+}
+
+/* Show the hr only when the NavLink is active */
+a.active hr {
+  display: block;
+}
